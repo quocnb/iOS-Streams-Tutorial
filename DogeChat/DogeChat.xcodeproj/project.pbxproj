@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5394F02521864DF5006E754C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5394F02321864DF4006E754C /* LaunchScreen.storyboard */; };
+		797C475922E8257400C66163 /* ChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797C475822E8257400C66163 /* ChatRoom.swift */; };
 		AFAE5331228B45AA002F331D /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE5325228B45A9002F331D /* Message.swift */; };
 		AFAE5332228B45AA002F331D /* JoinChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE5326228B45A9002F331D /* JoinChatViewController.swift */; };
 		AFAE5333228B45AA002F331D /* ChatRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE5327228B45A9002F331D /* ChatRoomViewController.swift */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		5394F02421864DF4006E754C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		797C475822E8257400C66163 /* ChatRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChatRoom.swift; path = "../../../../../../../System/Volumes/Data/Users/quocnb/Documents/project/iOS-Streams-Tutorial/DogeChat/DogeChat/ChatRoom.swift"; sourceTree = "<group>"; };
 		AFAE5325228B45A9002F331D /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		AFAE5326228B45A9002F331D /* JoinChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinChatViewController.swift; sourceTree = "<group>"; };
 		AFAE5327228B45A9002F331D /* ChatRoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatRoomViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 		D2A5F2021F4A9144005CD714 /* DogeChat */ = {
 			isa = PBXGroup;
 			children = (
+				797C475822E8257400C66163 /* ChatRoom.swift */,
 				AFAE5327228B45A9002F331D /* ChatRoomViewController.swift */,
 				AFAE5329228B45A9002F331D /* ChatRoomViewController+Table.swift */,
 				AFAE5328228B45A9002F331D /* Inconsolata-Bold.ttf */,
@@ -171,6 +174,7 @@
 				AFAE5338228B45AA002F331D /* Layouts.swift in Sources */,
 				AFAE5331228B45AA002F331D /* Message.swift in Sources */,
 				AFAE5336228B45AA002F331D /* Label.swift in Sources */,
+				797C475922E8257400C66163 /* ChatRoom.swift in Sources */,
 				AFAE5332228B45AA002F331D /* JoinChatViewController.swift in Sources */,
 				AFAE533A228B45AA002F331D /* StringExtension.swift in Sources */,
 				AFAE5339228B45AA002F331D /* MessageTableViewCell.swift in Sources */,
